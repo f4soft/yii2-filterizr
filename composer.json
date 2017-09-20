@@ -2,7 +2,7 @@
   "name": "f4soft/yii2-filterizr",
   "description": "A Yii2 wrapper for Filterizr",
   "type": "yii2-extension",
-  "keywords": ["yii2","extension","carousel","filterizr"],
+  "keywords": ["yii2","extension","filterizr"],
   "license": "MIT",
   "authors": [
     {
@@ -12,12 +12,12 @@
   ],
   "require": {
     "yiisoft/yii2": "*",
-    "bower-asset/filterizr.js": "*"
+    "bower-asset/filterizr": "*"
   },
   "minimum-stability" : "dev",
   "autoload": {
     "psr-4": {
-      "f4soft\\filterizr\\": ""
+      "f4soft\\yii2filterizr\\": ""
     }
   }
 }
